@@ -1,0 +1,38 @@
+/*COMBINATORS*/
+*  {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+/**Descendent Selector*/
+/*kutu cllası içerisindeki tüm p leri seç*/
+/*.kutu p {
+    color: red;
+}*/
+
+/*child selector*/
+/* parentı kutu classı olan tüm p leri seç*/
+/*.kutu > p {
+    color: green;
+}*/
+
+h1 + p {
+    color:green;
+}
+
+/** Child Selector*/
+/*! parenti kutu class olan tüm p leri seç*/
+.kutu >p {
+    color: purple;
+}
+
+/*! h1 elementi kapandıktan sonra ilk p elementini seçer*/
+h1 + p {
+    color: green;
+}
+
+/*! h1 elementi kapandıktan sonraki tüm p elementlerini seçer*/
+h1 ~ p {
+    color: hotpink;
+}
