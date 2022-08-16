@@ -33,6 +33,17 @@ h1 + p {
 }
 
 /*! h1 elementi kapandıktan sonraki tüm p elementlerini seçer*/
+/** general sibling selector*/
 h1 ~ p {
     color: hotpink;
+}
+
+h3{
+    margin: 2rem;
+    border: 1px solid red;
+    outline: 3px solid purple;
+    outline-offset: 10px;
+    border-radius: 50%;
+    width: 5rem;
+    height: 5rem;
 }
